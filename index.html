@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STAYFINDER</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<body>
+    <!-- header section  -->
+    <header>
+
+        <div><ion-icon name="menu" id="menubar" class="menulogo"></ion-icon></div>
+        <a href="#" class="logo">
+            <span class="part-1">Stay</span><span class="part-2">Finder</span>
+        </a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#contact">Contact Us</a>
+            <a href="#about">About us</a>
+        </nav>
+        <div class="icons">
+            <ion-icon name="search" class=" scroll-search" id="search-btn"></ion-icon>
+            <ion-icon name="person" id="login-btn"></ion-icon>
+        </div>
+
+        <form action="" class="navbarsearch">
+            <input type="search" id="search-bar" placeholder="Search here .....">
+            <label for="search-bar" class="search"><ion-icon name="search"></ion-icon></label>
+        </form>
+    </header>
+    <!-- login form -->
+   <div class="login-container">
+    <ion-icon name="close" id="form-close"></ion-icon>
+
+    <form action="">
+        <h3>Login</h3>
+        <input type="email" class="box" placeholder="Enter your email">
+        <input type="password" class="box" placeholder="Enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">Remember me</label>
+        <p>forger password ? <a href="#">Click Here</a></p>
+        <p>don't have any account <a href="#">Register now</a></p>
+    </form>
+   </div>
+    
+   <!-- home section starts -->
+
+   <section class="home" id="home">
+
+    <div class="content">
+        <h3>The Whole world awaits</h3>
+        <p>Book your fondest memories here</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="image">
+        <span class="background"></span>
+    </div>
+   </section>
+   <!-- home section ends-->
+   <!-- room booking section -->
+   <seciton class="book" id="book">
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/booking.jpg" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <h3>where to</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+    </div>
+   </seciton>
+
+   <!-- prices section  -->
+   <section class="packages" id="packages">
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="images/place1.jpg" alt="">
+            <div class="content">
+                <h3><ion-icon name="location"></ion-icon>Paris</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="price">&#x20B9 6,300  <span>&#x20B9 10,000</span> </div>
+            <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/place2.jpg" alt="">
+            <div class="content">
+                <h3><ion-icon name="location"></ion-icon>China</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="price">&#x20B9 6,300  <span>&#x20B9 10,000</span> </div>
+            <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/place3.jpg" alt="">
+            <div class="content">
+                <h3><ion-icon name="location"></ion-icon>Japan</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="price">&#x20B9 6,300 
+                <span>&#x20B9 10,000</span> </div>
+            <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/place6.jpg" alt="">
+            <div class="content">
+                <h3><ion-icon name="location"></ion-icon>New york</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="price">&#x20B9 6,300  <span>&#x20B9 10,000</span> </div>
+            <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/place5.jpg" alt="">
+            <div class="content">
+                <h3><ion-icon name="location"></ion-icon>Mumbai</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="price">&#x20B9 6,300 <span>&#x20B9 10,000</span> </div>
+            <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/place7.jpg" alt="">
+            <div class="content">
+                <h3><ion-icon name="location"></ion-icon>Goa</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="price">&#x20B9 6,300 <span>&#x20B9 10,000</span> </div>
+            <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <!-- Contact Section  -->
+   <section class="contact" id="contact">
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+    <div class="row">
+        <div class="image">
+            <img src="https://img.freepik.com/free-vector/earth-globe-airplane_1308-28892.jpg?w=900&t=st=1681388779~exp=1681389379~hmac=79ecd1640192ed017bf125219047f93e58e153717a2a12286341c7857a2eb4ae" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+    </div>
+   </section>
+   <section class="footer" id="about">
+    <div class="box-container">
+        <div class="box">
+            <h3>about us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, sed.
+            </p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">India</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+    </div>
+
+    <h1 class="credit">created by <span> Gourav Chourasiya</span> | all rights reserved!</h1>
+   </section>
+
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
